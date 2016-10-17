@@ -36,8 +36,8 @@
     "react-transform-hmr": "^1.0.4"
   },
   "scripts": {
-    "dev": "webpack",
-    "start": "webpack-dev-server"
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   },
   "author": "jacekk",
   "license": "MIT"
