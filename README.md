@@ -3,9 +3,9 @@
 ### Usage
 
 * `$ npm install`
-* `$ npm run dev`
+* `$ npm start`
 
 ### Tested on
 
-* node 6.*
-* npm 3.*
+* node 10.*
+* npm 6.*

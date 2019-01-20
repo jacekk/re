@@ -1,9 +1,7 @@
-import 'babel-polyfill';
-
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Provider} from 'react-redux';
-import {createStore, applyMiddleware} from 'redux';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
 
 import Layout from './components/layout';
 import BasicInput from './components/basic/input';
@@ -22,7 +20,7 @@ ReactDOM.render(
         <Layout pageTitle="Basics">
             <div className="col-xs-8">
                 <BasicInput />
-                <br/>
+                <br />
                 <BasicListGroup />
             </div>
             <div className="col-xs-4">
